@@ -1,0 +1,4 @@
+LIBRARY modernizer
+EXPORTS
+    ModernizeStart=_ModernizeStart@4
+    ModernizeStats=_ModernizeStats@4

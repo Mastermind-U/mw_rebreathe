@@ -1,68 +1,30 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build products and local runtime state
+/bin/
+/logs/
+/dist/
+/evidence/
+/stage/
+/bin-v17/
+/settings.ini
+**/artifacts/
+**/*fixtures*/
+**/_install-test-*/
+**/.modernization-backup/
+**/__pycache__/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.o
 *.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.dmp
 *.log
+*.tmp
 *.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+*.pyc
+/fonts/cp437/
+/fonts/cp1251/
+/fonts/BuildFonts.exe
+/fonts/*-validation.json

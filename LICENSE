@@ -672,3 +672,47 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+------------------------------------------------------------------------
+PROJECT SCOPE AND THIRD-PARTY NOTICES
+The following project notice is separate from the GNU GPL text above.
+------------------------------------------------------------------------
+
+Copyright (c) 2026 mw_rebreathe contributors.
+
+The independently written C++ sources, font-generation tools, scripts,
+tests and documentation of mw_rebreathe are licensed under the GNU General
+Public License, version 3 only (SPDX-License-Identifier: GPL-3.0-only).
+This scope also applies to the independently written development sources
+retained in local archives. Those archives are not part of this release.
+This notice does not change the GNU GPL text or add restrictions to it.
+
+Third-party fonts
+-----------------
+NotoSans-Regular.ttf and the bitmap font software generated from it
+(.fnt/.tex files) are distributed under the SIL Open Font License 1.1,
+not under the project's GPL grant. Copyright 2018 The Noto Project Authors.
+The complete font license is in fonts/OFL.txt. Source URL, original-file
+SHA-256 and provenance are recorded in fonts/source/provenance.json.
+These font notices and the OFL must accompany redistributed font software.
+The independently written font generator and installation scripts remain
+covered by the project's GPL license.
+
+Format references and game assets
+--------------------------------
+OpenMW's font loader was consulted as a binary-format reference. The font
+generator is independently written; no OpenMW implementation is included.
+The reference URL is recorded in fonts/source/provenance.json.
+
+ClassicReadable selects fonts already present in the user's game; original
+Bethesda fonts are not redistributed. Morrowind.exe, Bethesda archives,
+original game fonts, saves and other game resources are not part of the
+release and are not licensed by this project. A separately obtained game
+installation is required. The Morrowind and The Elder Scrolls names belong
+to their respective owners; this is an independent mod project.
+
+Private game-derived test executables, raw disassembly, process dumps and
+game-pixel captures are local diagnostics and are excluded from releases.
+Third-party material retains its original license and copyright notices;
+this project scope does not relicense it.

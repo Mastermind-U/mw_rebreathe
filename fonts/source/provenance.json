@@ -1,0 +1,11 @@
+{
+  "name": "Noto Sans Regular",
+  "source": "https://github.com/notofonts/noto-fonts/blob/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
+  "license": "OFL-1.1",
+  "licenseSource": "https://github.com/notofonts/noto-fonts/blob/main/LICENSE",
+  "downloaded": "2026-10-20",
+  "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+  "bytes": 569208,
+  "formatReference": "https://github.com/OpenMW/openmw/blob/master/components/fontloader/fontloader.cpp",
+  "notes": "Generator is independently written. OpenMW is used as a binary-format reference, no OpenMW code is included."
+}
